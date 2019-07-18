@@ -17,7 +17,6 @@ export class UsersComponent implements OnInit {
     'index',
     '_id',
     'name',
-    'picture',
     'isActive',
     'balance',
     'age',
@@ -35,13 +34,13 @@ export class UsersComponent implements OnInit {
     'favoriteFruit',
     'friends',
     'tags',
+    'picture',
   ];
   @ViewChild(MatSort, {static: true}) sort: MatSort;
 
   constructor(private usersService: UsersService) { }
 
   ngOnInit() {
-    console.group('onInit')
     this.usersService.fetchUsers()
       .subscribe(data => {
         this.users = data as User[];
