@@ -13,9 +13,24 @@ With more time to work on this top priorities would be:
     3. In particular, the styling of the "About" column needs to be addressed/thought about. 
   3. Format the "Registration" date as a more user-friendly date.
 
+Assumed Requirements:
+
+  For the purposes of this assignment, I displayed all the data in the HTML table, and made a judgement call to provide sorting on columns that made sense. Normally, I would want more clarification on:
+
+    1. What data should be displayed?
+    2. What data/columns should be able to be sorted?
+
+  The table is also read-only, so you can not add/edit/remove entries - that could also be a feature added with more time.
+
+## Quick Start
+
+Clone the repo locally. Then:
+
+`npm install`
+
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` or `npm run start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
