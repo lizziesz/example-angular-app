@@ -4,7 +4,7 @@ Angular Project that displays a table of data.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.1.
 
-I used Angular Material to help with the display of the table, and for its use of filtering/sorting. By using a Material table, it's quick to add filtering/sorting to the table.
+I used Angular Material to help with the display of the table, and for its use of filtering/sorting. By using a Material table, it's quick to add filtering/sorting to the table and adds out of the box styling.
 
 With more time to work on this top priorities would be:
 
