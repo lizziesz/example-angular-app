@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import {MatSort} from '@angular/material/sort';
-import {MatTableDataSource} from '@angular/material/table';
+import { MatSort } from '@angular/material/sort';
+import { MatTableDataSource } from '@angular/material/table';
 
 import { UsersService } from './users.service';
 import { User } from './user.model';
@@ -35,6 +35,7 @@ export class UsersComponent implements OnInit {
     'friends',
     'tags',
     'picture',
+    'guid',
   ];
   @ViewChild(MatSort, {static: true}) sort: MatSort;
 

@@ -1,6 +1,17 @@
 # ExampleAngularApp
 
+Angular Project that displays a table of data.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.1.
+
+I used Angular Material to help with the display of the table, and for its use of filtering/sorting. By using a Material table, it's quick to add filtering/sorting to the table.
+
+With more time to work on this top priorities would be:
+
+  1. Make tests pass/add more tests
+  2. Add more styling (the app has basic styling at the moment, but more could be added)
+    3. In particular, the styling of the "About" column needs to be addressed/thought about. 
+  3. Format the "Registration" date as a more user-friendly date.
 
 ## Development server
 

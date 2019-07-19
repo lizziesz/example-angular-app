@@ -8,7 +8,6 @@ export class UsersService {
   constructor(private http: HttpClient) { }
 
   fetchUsers() {
-    console.log('fetchUsers');
     return this.http.get('../../assets/data.json');
   }
 }
